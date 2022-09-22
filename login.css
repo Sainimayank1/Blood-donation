@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main
+{
+    height:100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-box
+{
+    height: 480px;
+    width: 380px;
+    background: white;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    position: relative;
+}
+
+.button-box
+{
+    width: 270px;
+    box-shadow: 0 0 20px 9px #ff61241f;
+    /* height: 10px; */
+    position: absolute;
+    top: 50px;
+    border-radius: 30px;
+
+}
+
+.toggle-button
+{
+    cursor:pointer;
+    padding: 10px 30px;
+    background: transparent;
+    border:none;
+}
