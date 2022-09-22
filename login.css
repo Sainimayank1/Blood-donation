@@ -19,19 +19,22 @@
     width: 380px;
     background: white;
     display: flex;
-    /* align-items: center; */
+    /* align-items:flex-end; */
     justify-content: center;
     position: relative;
+    
 }
 
 .button-box
 {
-    width: 270px;
+    width: 200px;
     box-shadow: 0 0 20px 9px #ff61241f;
     /* height: 10px; */
     position: absolute;
-    top: 50px;
+    top: 40px;
     border-radius: 30px;
+    display: flex;
+    justify-content: space-evenly;
 
 }
 
@@ -41,4 +44,19 @@
     padding: 10px 30px;
     background: transparent;
     border:none;
+    outline: none;
+    z-index: 1;
+}
+
+#btn
+{
+    left: 0;
+    top: 0;
+    position: absolute;
+    background:linear-gradient( to right,#ff105f,#ffad06 );
+    width: 105px;
+    height: 95%;
+    border-radius: 30px;
+    transition: .5s;
+    z-index: 0;
 }
