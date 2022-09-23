@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./login.css">
+</head>
+<body>
+    <div class="main">
+        <div class="form-box" id="form-box">
+            <div class="button-box">
+                <div id="btn">.</div>
+                <button type="button" class="toggle-button" id="login1">Login</button>
+                <button type="button" class="toggle-button" id="register1">Register</button>
+            </div>
+            <div class="form" id="form">    
+                <form action="" class="main-form" id="login">
+                    <input type="text" class="input" name="user_name" placeholder="User-Id" required >
+                    <input type="password" class="input" name="Password" placeholder="Password" required>
+                    <div class="div">
+                        <button type="button" class="button">Login.</button>
+                    </div>
+                </form>
+                <form action="" class="main-form" id="register">
+                    <input type="text" class="input" name="user_name" placeholder="Name" required >
+                    <input type="number" class="input" name="user_age" placeholder="Age" required >
+                    <input type="text" class="input" name="user_number" placeholder="Mobile Number" required >
+                    <input type="text" class="input" name="user_email" placeholder="Email" required >
+                    <input type="text" class="input" name="addres" placeholder="Address" required>
+                    <div  class="div">
+                        <button type="button" class="button">Register.</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
