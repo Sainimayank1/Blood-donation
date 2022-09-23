@@ -15,6 +15,7 @@
 
 .form-box
 {
+    border-radius: 20px;
     height: 480px;
     width: 380px;
     background: white;
@@ -59,4 +60,61 @@
     border-radius: 30px;
     transition: .5s;
     z-index: 0;
+}
+
+.form
+{
+    top:150px;
+    position: absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-form{
+    /* border: 2px solid black; */
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    width: 200px;
+    height: 250px;
+}
+
+.input
+{
+    width: 100%;
+    border: none;
+    border-bottom: .5px solid black;
+    margin: 10px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px 10px 10px;
+    outline: none;
+    font-size: 14px;
+}
+
+.main-form div
+{
+    width: 200px;
+    /* border: 2px solid red; */
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    height: 30px;
+}
+
+#button
+{
+    background: transparent;
+    cursor: pointer;
+    background:linear-gradient( to right,#ff105f,#ffad06 );
+    width: 105px;
+    height: 100%;
+    border-radius: 30px;
+    transition: .5s;
+    z-index: 0;
+    outline: none;
+    border: none;
 }
