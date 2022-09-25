@@ -4,16 +4,21 @@ var btn_movable = document.getElementById("btn");
 var form = document.getElementById("form-box");
 var login = document.getElementById("login");
 var register = document.getElementById("register");
-// var main_form = document.getElementById("form");
 
+
+btn_movable.style.left="0%";
+login.style.position="relative";
+login.style.right="0px";
+register.style.position="absolute";
+register.style.right="-450px";
 
 login_alert.addEventListener("click", ()=>
 {
+    login.style.right="0px";
     login.style.position="relative";
     btn_movable.style.left="0%";
-    form.style.height="480px";
-    login.style.right="0px";
     register.style.right="-450px";
+    form.style.height="480px";
 
 });
 

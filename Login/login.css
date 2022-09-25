@@ -86,7 +86,7 @@
   justify-content: center;
   height: 30px;
 }
-.main .form .main-form .div .button {
+ form button {
   background: transparent;
   cursor: pointer;
   background: linear-gradient(to right, #ff105f, #ffad06);
@@ -99,4 +99,10 @@
   border: none;
 }
 
-/*# sourceMappingURL=login.css.map */
+form button:hover
+{
+  width: 200px;
+  height: 40px;
+}
+
+
